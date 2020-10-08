@@ -1,0 +1,18 @@
+body {
+    background-color:salmon
+}
+
+#tableCards, #waitlistCards {
+    display: flex;
+    flex-wrap:wrap
+}
+
+.card {
+    width:15%;
+    margin:10px;
+    border: 1px solid black;
+    box-shadow: 4px 4px 6px black;
+    background: white;
+    border-radius: 5px;
+    padding: 10px;
+}
